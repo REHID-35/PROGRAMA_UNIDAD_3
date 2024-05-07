@@ -30,7 +30,6 @@ public class Examen_3 {
             case 6:
             System.out.println("Junio:28");
             break;
-
             case 7:
             System.out.println("Julio:31");
             break;
@@ -52,6 +51,7 @@ public class Examen_3 {
             default:
             System.out.println("El numero asignado no coincide con un numero del mes del año");
             System.out.println("Vuelva a intentar");
+            teclado.close();
         }
     }
 }
